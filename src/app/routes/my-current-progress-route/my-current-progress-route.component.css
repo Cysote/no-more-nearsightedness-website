@@ -1,0 +1,15 @@
+h2, p {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.diopter-info-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.diopter-info-cell {
+    place-self: center;
+    text-align: center;
+}

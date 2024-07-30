@@ -1,0 +1,20 @@
+.page-wrapper-outer {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.page-wrapper-inner {
+    display: flex;
+    flex-direction: column;
+    min-height: 98vh;
+    margin: 0;
+    min-width: 850px;
+    max-width: 850px;
+}
+
+main {
+    flex-grow: 1;
+    margin: 0px 24px;
+}
