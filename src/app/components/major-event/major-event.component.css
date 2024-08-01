@@ -1,0 +1,23 @@
+.major-event-container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.major-event-content-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.major-event-content-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 12px;
+}
+
+.major-event-content-image {
+    max-height:300px;
+    max-width: 300px;
+    height:auto;
+    width:auto;
+}
