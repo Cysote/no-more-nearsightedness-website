@@ -5,7 +5,7 @@
 
 .major-event-content-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
 }
 
 .major-event-content-image-container {
@@ -16,8 +16,8 @@
 }
 
 .major-event-content-image {
-    max-height:300px;
-    max-width: 300px;
+    max-height:500px;
+    max-width: 500px;
     height:auto;
     width:auto;
 }
